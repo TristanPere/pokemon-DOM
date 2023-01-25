@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="./assets/pokeball.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>PokéDom</title>
+  </head>
+  <body>
+    <h1>PokéDom- gotta code 'em all!</h1>
+    <div class="input-container">
+      <label for="search-bar-name">Search Name</label>
+      <input id="search-bar-name" type="text" />
+      <label for="search-bar-type">Search Type</label>
+      <input id="search-bar-type" type="text" />
+      <label for="search-bar-number">Number on Display</label>
+      <input
+        id="search-bar-number"
+        type="range"
+        min="1"
+        max="150"
+        value="150"
+      />
+      <label for="sort-button-type">Sort Pokemon By Main Type</label>
+      <input id="sort-button-type" type="checkbox" />
+      <label for="cars">Choose a type:</label>
+      <select name="type" id="types">
+      </select>
+    </div>
+    <main class="card-container"></main>
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>
